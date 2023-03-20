@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+    }
+    
+    body{
+       background-color: #f7f7f7;
+        margin: 0px;
+    }
+    
+    
+     header, footer{
+       background: linear-gradient(to right, #ba6 ,#6a75aa);
+       color: white;
+       padding: 1rem;
+       font-family:'Verdana' ,sans-serif ;
+      font-style:italic;
+       text-align: center;
+     }
+    
+    h1{
+      font-size: 3rem;
+    }
+    
+    h2{
+      font-family: 'Tahoma', sans-serif;
+      font-style: italic;
+      font-size: 3rem ; 
+      text-align: center;
+    }
+    
+    
+    main{
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0,1);
+    }
+    
+    img{
+     
+       max-width:auto;
+    }
+    
+    p{
+      font-family: 'Gill Sans', sans-serif;
+      background-color: #ffb6c1;
+      color: black;
+    }
+    
+    footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center
+      background-color: white;
+      padding: 1rem;
+    }
+    
+    .logo img{
+      height: 75px;
+    }
+    
+    form{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label, input, textarea {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+    
+    input[type= "submit"] {
+      background: #b6a2dd;
+      color: white;
+    }
